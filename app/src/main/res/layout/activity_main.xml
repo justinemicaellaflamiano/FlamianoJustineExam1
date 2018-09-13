@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4470ff"
+        android:padding="10dp"
+        android:text="Card Activity"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="222dp"
+        android:layout_height="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="104dp"
+        android:text="Youngest of the trio but the strongest and most mature. He was able to rescue his boter brothers from certain deaths without too much hassle. He tends to do most of the chores of the house, though he doesn't seem to mind this." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="13dp"
+        android:text="Ice bear"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView3"
+        android:text="Polar Bear" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="218dp"
+        android:text="Pan pan"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:text="Panda" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="212dp"
+        android:layout_height="105dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="6dp"
+        android:text="Panda seems to have more knowledge in things regarding technology and things from Asian culture. He is the middle brother and the most delicate or senstive among the trio." />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="132dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView2"
+        app:srcCompat="@drawable/Panda" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="164dp"
+        android:layout_height="128dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView"
+        app:srcCompat="@drawable/icebearr" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="148dp"
+        android:text="Grizzly"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="-148dp"
+        android:text="Bear" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView9"
+        android:text="Grizzly is the oldest among the three bears. Out of the three bears, he stands out the most and sets good examples for them. He's almost always optimistic and gluttonous. He loves to make friends, enjoying attention and generally being very social and friendly." />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_alignTop="@+id/textView8"
+        app:srcCompat="@drawable/gizzly" />
+
+</RelativeLayout>
